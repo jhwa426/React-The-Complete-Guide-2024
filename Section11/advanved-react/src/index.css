@@ -1,16 +1,16 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif;
-  background: #fff;
+    font-family: sans-serif;
+    background: #fff;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 main {
-  margin-top: 6rem;
+    margin-top: 6rem;
 }
