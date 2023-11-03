@@ -11,43 +11,43 @@ app.use(bodyParser.json());
 // CORS
 
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*'); // allow all domains
-  res.setHeader('Access-Control-Allow-Methods', 'GET, PUT');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    res.setHeader('Access-Control-Allow-Origin', '*'); // allow all domains
+    res.setHeader('Access-Control-Allow-Methods', 'GET, PUT');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-  next();
+    next();
 });
 
 app.get('/places', async (req, res) => {
-  const fileContent = await fs.readFile('./data/places.json');
+    const fileContent = await fs.readFile('./data/places.json');
 
-  const placesData = JSON.parse(fileContent);
+    const placesData = JSON.parse(fileContent);
 
-  res.status(200).json({ places: placesData });
+    res.status(200).json({ places: placesData });
 });
 
 app.get('/user-places', async (req, res) => {
-  const fileContent = await fs.readFile('./data/user-places.json');
+    const fileContent = await fs.readFile('./data/user-places.json');
 
-  const places = JSON.parse(fileContent);
+    const places = JSON.parse(fileContent);
 
-  res.status(200).json({ places });
+    res.status(200).json({ places });
 });
 
 app.put('/user-places', async (req, res) => {
-  const places = req.body.places;
+    const places = req.body.places;
 
-  await fs.writeFile('./data/user-places.json', JSON.stringify(places));
+    await fs.writeFile('./data/user-places.json', JSON.stringify(places));
 
-  res.status(200).json({ message: 'User places updated!' });
+    res.status(200).json({ message: 'User places updated!' });
 });
 
 // 404
 app.use((req, res, next) => {
-  if (req.method === 'OPTIONS') {
-    return next();
-  }
-  res.status(404).json({ message: '404 - Not Found' });
+    if (req.method === 'OPTIONS') {
+        return next();
+    }
+    res.status(404).json({ message: '404 - Not Found' });
 });
 
 app.listen(3000);
