@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 4
+            }
+        ],
+        "customer": {
+            "name": "Jaeyoung Hwang",
+            "email": "jeffhwa411@gmail.com",
+            "street": "303/17 Vogel Lane, Auckland CBD, Auckland, 1010",
+            "postal-code": "1010",
+            "city": "AUCKLAND CBD"
+        },
+        "id": "452.92165546683736"
+    },
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 4
+            }
+        ],
+        "customer": {
+            "name": "Jaeyoung Hwang",
+            "email": "jeffhwa411@gmail.com",
+            "street": "303/17 Vogel Lane, Auckland CBD, Auckland, 1010",
+            "postal-code": "1010",
+            "city": "AUCKLAND CBD"
+        },
+        "id": "822.7092519016628"
+    },
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 4
+            }
+        ],
+        "customer": {
+            "name": "Jaeyoung Hwang",
+            "email": "jeffhwa411@gmail.com",
+            "street": "303/17 Vogel Lane, Auckland CBD, Auckland, 1010",
+            "postal-code": "1010",
+            "city": "AUCKLAND CBD"
+        },
+        "id": "172.9248227404925"
+    },
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 4
+            }
+        ],
+        "customer": {
+            "name": "Jaeyoung Hwang",
+            "email": "jeffhwa411@gmail.com",
+            "street": "303/17 Vogel Lane, Auckland CBD, Auckland, 1010",
+            "postal-code": "1010",
+            "city": "AUCKLAND CBD"
+        },
+        "id": "273.67135548948227"
+    }
+]
