@@ -1,20 +1,59 @@
 import { cartAction } from "../../store/cart-slice";
 import Card from '../UI/Card';
 import classes from './ProductItem.module.css';
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const ProductItem = (props) => {
     const { title, price, description, id } = props;
 
     const dispatch = useDispatch();
+    // const cart = useSelector((state) => state.cart);
 
     const addToCartHandler = () => {
-        dispatch(cartAction.addItemToCart({
-            id,
-            title,
-            price,
-        }));
-    }
+
+
+        // const newTotalQuantity = cart.totalQuantity + 1;
+
+        // const updatedItems = cart.items.slice(); // create copy via slice to avoid mutating original state
+        // const existingItem = updatedItems.find((item) => item.id === id);
+
+        // if (existingItem) {
+        //     const updatedItem = { ...existingItem }; // new object + copy existing properties to avoid state mutation
+        //     updatedItem.quantity++;
+        //     updatedItem.totalPrice += price;
+        //     const existingItemIndex = updatedItems.findIndex(
+        //         (item) => item.id === id
+        //     );
+        //     updatedItems[existingItemIndex] = updatedItem;
+
+        // } else {
+        //     updatedItems.push({
+        //         id: id,
+        //         price: price,
+        //         quantity: 1,
+        //         totalPrice: price,
+        //         name: title,
+        //     });
+        // }
+
+        // const newCart = {
+        //     totalQuantity: newTotalQuantity,
+        //     items: updatedItems,
+        // };
+
+        // dispatch(cartAction.replaceCart(newCart));
+
+        // and then send Http request
+        // fetch('firebase-url', { method: 'POST', body: JSON.stringify(newCart) })
+
+        dispatch(
+            cartAction.addItemToCart({
+                id,
+                title,
+                price,
+            })
+        );
+    };
 
     return (
         <li className={classes.item}>
