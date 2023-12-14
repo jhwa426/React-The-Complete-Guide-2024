@@ -1,6 +1,4 @@
 .header {
-    max-width: 60rem;
-    margin: auto;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -12,12 +10,15 @@
 }
 
 .list a {
+    background-color: var(--color-gray-500);
+    color: var(--color-gray-900);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
     text-decoration: none;
-    color: var(--color-primary-400);
 }
 
 .list a:hover,
+.list a:active,
 .list a.active {
-    color: var(--color-primary-800);
-    text-decoration: underline;
+    background-color: var(--color-primary-600);
 }
