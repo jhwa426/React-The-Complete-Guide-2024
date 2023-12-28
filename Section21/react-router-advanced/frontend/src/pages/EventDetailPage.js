@@ -122,6 +122,7 @@ function EventDetailPage() {
                     {(loadedEvent) => <EventItem event={loadedEvent} />}
                 </Await>
             </Suspense>
+
             <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
                 <Await resolve={events}>
                     {(loadedEvents) => <EventsList events={loadedEvents} />}
@@ -172,7 +173,7 @@ async function loadEvents() {
 export async function loader({ request, params }) {
     const id = params.eventId;
 
-    return defer({
+    return defer({ // control when data is loaded
         event: await loadEvent(id),
         events: loadEvents(),
     });
