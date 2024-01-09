@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"test!!!!","image":"https://images.app.goo.gl/RPNyAKxhVchb4v4U7","date":"2022-12-12","description":"asdasdasda","id":"95226698-22fa-40e6-a2bf-e88631b265ba"},{"title":"A new event","image":"https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg","date":"2022-10-01","description":"Some awesome event!","id":"2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"}],"users":[{"email":"jeffhwa411@gmail.com","password":"$2a$12$1Ul.SKHVrsObJj2xlrk2vujBmxZv1ZYpMTvQA0dYE7xlCVj.zpnr2","id":"5aacd06a-92e6-4b91-8162-df70df3cda89"},{"email":"dasda@asd.com","password":"$2a$12$ynb/DQhr9XtNyf9ZbRoks.RszwIMOaca48pGZe5lScNqxIEuRB/hS","id":"dc2b7c6b-bbc7-41ac-8f95-63907681b95f"},{"email":"dasda@asd.com","password":"$2a$12$pmpNz7igzZfF9ikLnAVPD.sfWK.hw4kasDnJWit.1S4b1AJjuT/B.","id":"7b2593e7-5d33-49e3-9d15-73cecb9dd39f"},{"email":"dasda@asdasdasd.com","password":"$2a$12$kFS5NX428PWlFqETKRyrxu4.TilmbpFZxP1hzQO.GjtKALIVBdTra","id":"e2ea1fa9-bf5e-482b-98a7-b4e300bc45e4"},{"email":"wodud6359@gmail.com","password":"$2a$12$/N9MDEAcNZsXk.RBYIqIu.LIS358pwzxN8t6vlyBgM5OzVbxoiJ/K","id":"d7291df3-1803-4796-bd3b-d7376d253e3f"},{"email":"jeffhwa4121211@gmail.com","password":"$2a$12$/lUa.ReNjcnnOZu.SRCLiuRh0oOfqrwucTbbHXZ9H.D72gJimtmYi","id":"1258e31c-01ef-46e7-8642-4defd102e6e5"},{"email":"wodud6359asdasdas@asdasdas.com","password":"$2a$12$smIQkGe3IjXTyYRyU8A3I.CrR9xlYaGCx6qUbWwz5MbYdslP.PRuO","id":"eea98901-fd51-49fb-b7b4-bea001e30217"},{"email":"test1@test.com","password":"$2a$12$eOJgQ9jbsRPwHLODv0DS/exeKAjNTKi.Keinbsvb/fWnD5QFazyLe","id":"ea32a7ae-9445-4e89-9379-bb94edfee3b0"}]}
