@@ -22,10 +22,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/news/[newsId]": [
+    "/news": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/news/[newsId].js"
+      "static/chunks/pages/news.js"
+    ],
+    "/news/something-important": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/news/something-important.js"
     ]
   },
   "ampFirstPages": []
