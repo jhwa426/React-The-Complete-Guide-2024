@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import MeetupList from '../components/meetups/MeetupList';
 
 const DUMMY_MEETUPS = [
@@ -17,8 +18,46 @@ const DUMMY_MEETUPS = [
     }
 ];
 
-function HomePage() {
-    return <MeetupList meetups={DUMMY_MEETUPS} />
+function HomePage(props) {
+    // const [loadedMeetups, setLoadMeetups] = useState([]);
+
+    // useEffect(() => {
+    //     setLoadMeetups(DUMMY_MEETUPS);
+    // }, []);
+
+    return (
+        <MeetupList meetups={props.meetups} />
+    )
 }
+
+// this is for authentification request
+export async function getStaticProps() {
+    // file loading, fetching
+    // fetch data from an API
+
+    return {
+        props: {
+            meetups: DUMMY_MEETUPS
+        },
+        revalidate: 1,
+    };
+}
+
+
+// generate every incoming request
+
+// export async function getServerSideProps(context) {
+//     // fetch data from an API
+//     const req = context.req;
+//     const res = context.res;
+
+//     return {
+//         props: {
+//             meetups: DUMMY_MEETUPS
+//         },
+//     };
+// }
+
+
 
 export default HomePage;
