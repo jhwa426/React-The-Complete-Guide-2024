@@ -29,6 +29,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .button:hover {

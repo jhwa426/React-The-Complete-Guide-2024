@@ -1,6 +1,6 @@
 // import Post from './components/Post';
-import PostsList from "./components/PostsList";
-import MainHeader from "./components/MainHeader";
+import PostsList from "../components/PostsList";
+import MainHeader from "../components/MainHeader";
 import React, { useState } from 'react'
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
 
     return (
         <>
+
             <MainHeader onCreatePost={showModalHandler} />
             <main>
                 {/* <Post

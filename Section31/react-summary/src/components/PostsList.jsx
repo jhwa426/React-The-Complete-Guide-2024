@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import classes from './PostsList.module.css';
 import Post from "./Post";
-import NewPost from "./NewPost";
 import Modal from "./Modal";
 
 
-function PostsList({ isPosting, onStopPosting }) {
+function PostsList() {
     // const [enteredBody, setEnteredBody] = useState('');
 
     // const [enteredAuthor, setEnteredAuthor] = useState("");
@@ -59,14 +58,14 @@ function PostsList({ isPosting, onStopPosting }) {
 
     return (
         <>
-            {isPosting && (
+            {/* {isPosting && (
                 <Modal onClose={onStopPosting}>
                     <NewPost
                         onCancel={onStopPosting}
                         onAddPost={addPostHandler}
                     />
                 </Modal>
-            )}
+            )} */}
 
             {!isFetching && posts.length > 0 && (
                 <ul ul className={classes.posts}>
