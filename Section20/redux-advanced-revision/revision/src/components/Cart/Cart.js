@@ -15,10 +15,11 @@ const Cart = (props) => {
                     <CartItem
                         key={item.id}
                         item={{
+                            id: item.id,
                             title: item.name,
                             quantity: item.quantity,
                             total: item.totalPrice,
-                            price: item.price
+                            price: item.price,
                         }}
                     />
                 ))}
