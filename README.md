@@ -1,6 +1,28 @@
 # React-The-Complete-Guide-2023
 
-<!-- Icon sections -->
+<p>
+Built Full-stack React applications with proficiency in React, Hooks, Redux, React Router, NextJS, state management using React's Context API and React Redux, route-related data fetching, building standalone and backend-connected applications, implementing user authentication, and conducting React unit testing
+</p>
+
+- Acquired proficiency in React, Hooks, Redux, React Router, and Next.js
+
+- Managed complex state efficiently with React’s Context API & React Redux
+
+- Gained knowledge about routing & route-related data fetching with React Router
+
+- Built Full-Stack React apps with NextJS
+
+- Developed multiple demo projects & explored realistic examples
+
+- Learned all about React Hooks and React Components
+
+- Constructed standalone React apps & applications connected to a backend via HTTP
+
+- Implemented user authentication in React apps
+
+- Initiated React Unit Testing
+
+## Technical Skills 💻
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/en/main)
